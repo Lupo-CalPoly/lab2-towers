@@ -34,7 +34,7 @@ int main()
 { 
     int numDiscs, start, goal, steps; 
 
-    cout << "Enter the number of disks to be moved: "; 
+    cout << "Enter number of discs to be moved: "; 
     cin >> numDiscs; 
 
     start = 1; 

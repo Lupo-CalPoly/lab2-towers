@@ -32,13 +32,13 @@ if:
    /* Set return register to 1 */
    /* branch to endif */
 else:
-   /* Use a callee-saved varable for temp and set it to 6 */
-   /* Subract start from temp and store to itself */
-   /* Subtract goal from temp and store to itself (temp = 6 - start - goal)*/
+   /* Use a callee-saved varable for peg and set it to 6 */
+   /* Subract start from peg and store to itself */
+   /* Subtract goal from peg and store to itself (peg = 6 - start - goal)*/
 
    /* subtract 1 from original numDisks and store it to numDisks parameter */
 
-   /* Set end parameter as temp */
+   /* Set end parameter as peg */
    /* Call towers function */
    /* Save result to callee-saved register for total steps */
    /* Set numDiscs parameter to 1 */
@@ -48,7 +48,7 @@ else:
    /* Add result to total steps so far */
    
    /* Set numDisks parameter to original numDisks - 1 */
-   /* set start parameter to temp */
+   /* set start parameter to peg */
    /* set goal parameter to original goal */
    /* Call towers function */
    /* Add result to total steps so far and save it to return register */
